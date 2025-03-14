@@ -48,19 +48,17 @@ This project is a web crawler that aims to automatically collect and save news f
 
 ## Project Structure
 
-- The project consists of the following files and folders:
+- **main.py:** The main file that starts the crawler.
 
-- **main.py:** Crawler'ı başlatan ana dosya.
+- **crawler.py:** Contains class definitions that contain the basic crawler logic.
 
-- **crawler.py:** Temel crawler mantığını içeren sınıf tanımlamalarını barındırır.
+- **data.py:** Defines the news object.
 
-- **data.py:** Haber nesnesini tanımlar.
+- **news.json:** JSON file where the captured news is saved.
 
-- **news.json:** Çekilen haberlerin kaydedildiği JSON dosyası.
+- **images/:** Folder where the downloaded images are stored.
 
-- **images/:** İndirilen görsellerin saklandığı klasör.
-
-- **image_definitions.csv:** İndirilen görsellerin tanımlamalarının saklandığı CSV dosyası.
+- **image_definitions.csv:** CSV file where the definitions of the downloaded images are stored.
 
 
 
