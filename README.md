@@ -26,6 +26,6 @@ This project is a web crawler that aims to automatically collect and save news f
 
 - main.py dosyasını çalıştırmak için aşağıdaki komutu kullanın:
 
-"python main.py"
+- "python main.py"
 
 
