@@ -34,3 +34,42 @@ This project is a web crawler that aims to automatically collect and save news f
 
   "crawler.get_news(start_id, end_id)"
 
+- **Stopping Work:**
+
+- While the crawler is running, you can stop the process at any time by pressing the Esc key.
+
+- **Output Files:**
+
+- The news pulled is saved in the news.json file.
+
+- The downloaded images are saved in the ./images/ folder and a new subfolder is created for every 100 news items (for example, ./images/3313900/).
+
+- The image descriptions are saved in the image_definitions.csv file.
+
+## Project Structure
+
+- The project consists of the following files and folders:
+
+- **main.py:** Crawler'ı başlatan ana dosya.
+
+- **crawler.py:** Temel crawler mantığını içeren sınıf tanımlamalarını barındırır.
+
+- **data.py:** Haber nesnesini tanımlar.
+
+- **news.json:** Çekilen haberlerin kaydedildiği JSON dosyası.
+
+- **images/:** İndirilen görsellerin saklandığı klasör.
+
+- **image_definitions.csv:** İndirilen görsellerin tanımlamalarının saklandığı CSV dosyası.
+
+
+
+
+
+
+
+
+
+
+
+
