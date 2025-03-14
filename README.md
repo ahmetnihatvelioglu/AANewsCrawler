@@ -26,6 +26,11 @@ This project is a web crawler that aims to automatically collect and save news f
 
 - main.py dosyasını çalıştırmak için aşağıdaki komutu kullanın:
 
-- "python main.py"
+  "python main.py"
 
+- **Start Crawler:**
+
+- main.py file starts pulling news using Crawler class in crawler.py file. Edit the relevant variables in main.py to set the ID range of news to pull:
+
+  "crawler.get_news(start_id, end_id)"
 
